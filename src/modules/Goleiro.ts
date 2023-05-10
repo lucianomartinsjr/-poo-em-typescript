@@ -1,5 +1,5 @@
 import { Jogador } from "./Jogador";
-import { Posicao } from "./enumPosicao";
+import { Posicao } from "../enum/enumPosicao";
 
 export class Goleiro extends Jogador {
   private static numInstancias: number = 0;

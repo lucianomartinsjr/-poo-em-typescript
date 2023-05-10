@@ -1,5 +1,5 @@
 import { Profissional } from "./Profissional";
-import { Posicao } from "./enumPosicao";
+import { Posicao } from "../enum/enumPosicao";
 
 export class Jogador extends Profissional {
   constructor(

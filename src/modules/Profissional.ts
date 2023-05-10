@@ -1,4 +1,4 @@
-import { IPessoa } from "./IPessoa";
+import { IPessoa } from "../interfaces/IPessoa";
 
 export abstract class Profissional implements IPessoa {
   constructor(

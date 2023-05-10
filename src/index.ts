@@ -1,7 +1,7 @@
-import { Elenco } from "./Elenco";
-import { Goleiro } from "./Goleiro";
-import { Jogador } from "./Jogador";
-import { Posicao } from "./enumPosicao";
+import { Elenco } from "./modules/Elenco";
+import { Goleiro } from "./modules/Goleiro";
+import { Jogador } from "./modules/Jogador";
+import { Posicao } from "./enum/enumPosicao";
 
 const elenco = new Elenco();
 
